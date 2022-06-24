@@ -1,0 +1,15 @@
+[Unit]
+Description=Mass Mailer daemon
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/spammer9k \
+    --base_path /etc/spammer9k/ \
+    --conf_file config.json \
+    --log_file /var/log/spammer9k.log
+User=root
+#reload non implementato
+#ExecReload=/bin/kill -HUP $MAINPID
+
+[Install]
+WantedBy=multi-user.target

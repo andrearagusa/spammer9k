@@ -1,0 +1,70 @@
+{
+  "newsletter_endpoint" : "http://0.0.0.0:1234/api/newsletter/push",
+  "mail_endpoint" : "http://0.0.0.0:1234/api/mail/push",
+  "stats_endpoint" : "http://0.0.0.0:1234/api/stats",
+  "ping_endpoint" : "http://0.0.0.0:1234/api/ping",
+
+  "auth_info" :
+  {
+    "username" : "user",
+    "password" : "pass"
+  },
+  
+  "mail_priorities" : 
+  [
+    "HIGH",
+    "NORMAL",
+    "LOW"
+  ],
+  
+  "newsletter_templates" :
+  [
+    {
+      "name" : "default",
+      "folder" : "default_template/"
+    }
+  ],
+  
+  "mail_accounts" : 
+  [
+    {
+      "host" : "localhost",
+      "port" : 2500,
+      "address" : "noreply@test.com",
+      "password" : "password",
+      "ssl" : false
+    }
+  ],
+  
+  "newsletter_accounts" :
+  [
+    {
+      "host" : "localhost",
+      "port" : 2500,
+      "address" : "newsletter1@test.com",
+      "password" : "password",
+      "ssl" : false
+    },
+    {
+      "host" : "localhost",
+      "port" : 2500,
+      "address" : "newsletter2@test.com",
+      "password" : "password",
+      "ssl" : false
+    },
+    {
+      "host" : "localhost",
+      "port" : 2500,
+      "address" : "newsletter3@test.com",
+      "password" : "password",
+      "ssl" : false
+    },
+        {
+      "host" : "localhost",
+      "port" : 2500,
+      "address" : "newsletter4@test.com",
+      "password" : "password",
+      "ssl" : false
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+[
+	{
+        "template" : "default",
+		"language" : "it",
+		"username" : "test1",
+		"email" : "test1@test.com",
+		"website_url" : "http://www.test.com/todo",
+		"tracking_url" : "http://mailer.test.com/tracking",
+		"rows" : 
+		[
+			[
+				{
+					"title" : "title",
+					"channel_name" : "channel name",
+					"preview" : "https://static1.test.com/v/8289c544025e03437a176b911c55912b/1560117600/a4a6a94394d55a2fa942cf9486fcc336.jpg?thumbnail=1",
+					"published" : "19 Feb. 2019"
+				},
+				{
+					"title" : "title",
+					"channel_name" : "channel name",
+					"preview" : "https://static1.test.com/v/8289c544025e03437a176b911c55912b/1560117600/a4a6a94394d55a2fa942cf9486fcc336.jpg?thumbnail=1",
+					"published" : "19 Feb. 2019"
+				}
+			],
+			[
+				{
+					"title" : "second row title",
+					"channel_name" : "channel name",
+					"preview" : "https://static1.test.com/v/8289c544025e03437a176b911c55912b/1560117600/a4a6a94394d55a2fa942cf9486fcc336.jpg?thumbnail=1",
+					"published" : "19 Feb. 2019"
+				},
+				{
+					"title" : "second row title",
+					"channel_name" : "channel name",
+					"preview" : "https://static1.test.com/v/8289c544025e03437a176b911c55912b/1560117600/a4a6a94394d55a2fa942cf9486fcc336.jpg?thumbnail=1",
+					"published" : "19 Feb. 2019"
+				}
+			]
+		]
+	},
+	{
+        "template" : "default",
+		"language" : "en",
+		"username" : "test2",
+		"email" : "test2@test.com",
+		"website_url" : "http://www.test.com/todo",
+		"tracking_url" : "http://mailer.test.com/tracking",
+		"rows" : 
+		[
+			[
+				{
+					"title" : "title",
+					"channel_name" : "channel name",
+					"preview" : "http://static1.test.com/v/5236b80f2c70c2b88a5ca801f043e021/1557698400/4ea3233e91a9ee80cd80d41f20685afb.jpg?thumbnail=1",
+					"published" : "19 Feb. 2019"
+				},
+				{
+					"title" : "title",
+					"channel_name" : "channel name",
+					"preview" : "http://static1.test.com/v/5236b80f2c70c2b88a5ca801f043e021/1557698400/4ea3233e91a9ee80cd80d41f20685afb.jpg?thumbnail=1",
+					"published" : "19 Feb. 2019"
+				}
+			]
+		]
+	}
+]

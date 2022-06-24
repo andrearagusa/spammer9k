@@ -1,0 +1,19 @@
+{
+	"version" : 1,
+	"translations" : {
+		"it" : {
+			"hi_username" : "Ciao {{newsletter.username}}!",
+			"some_of_the_channels_you_follow_have_recently_published_memes" : "Alcuni dei canali che segui, hanno pubblicato recentemente dei meme di tuo interesse!",
+			"this_email_was_sent_to_email" : "Quest'email è stata inviata a {{newsletter.email}}",
+			"email_preferences" : "Preferenze email",
+			"contact_us" : "Contattaci"
+		},
+		"en" : {
+			"hi_username" : "Hi {{newsletter.username}}!",
+			"some_of_the_channels_you_follow_have_recently_published_memes" : "Some of the channels you follow have recently published memes of your interest!",
+			"this_email_was_sent_to_email" : "This email was sent to {{newsletter.email}}",
+			"email_preferences" : "Email preferences",
+			"contact_us" : "Contact us"
+		}
+	}
+}

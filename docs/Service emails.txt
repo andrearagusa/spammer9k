@@ -1,0 +1,28 @@
+Service emails are used for common sending to users.
+The body that must be sent is like the following:
+
+{
+    "address": "",
+    "subject": "",
+    "content": "",
+    "priority": ""
+}
+
+- Address: The recipient email address
+- Subject: The subject of the email
+- Content: HTML body of the email
+- Priority: LOW, NORMAL, HIGH
+
+Priority levels:
+- HIGH: Processed before NORMAL and LOW.
+Use it for very important emails, like REGISTRATIONS, PASSWORD CHANGE, PASSWORD LOST, and similars.
+- NORMAL: Processed before LOW
+Use it for normal emails like i don't know. LOL
+- LOW: Processed as last because we like only HIGHer level
+Use it to send emails like notifications of uploads, etc...
+
+The system is protected by a basic-auth authentication system.
+Headers to use:
+
+Authorization: Basic base64(USER:PASSWORD)
+Content-Type: application/json

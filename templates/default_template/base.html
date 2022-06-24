@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Tilte</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<style type="text/css">
+			/* CLIENT-SPECIFIC STYLES */
+			/* Force Outlook to provide a "view in browser" message */
+			#outlook a {
+				padding: 0;
+			}
+			
+			/* Force Hotmail to display emails at full width */
+			.ReadMsgBody {
+				width: 100%;
+			}
+			.ExternalClass {
+				width: 100%;
+			}
+			
+			/* Force Hotmail to display normal line spacing */
+			.ExternalClass,
+			.ExternalClass p,
+			.ExternalClass span,
+			.ExternalClass font,
+			.ExternalClass td,
+			.ExternalClass div {
+				line-height: 100%;
+			}
+			
+			/* Prevent WebKit and Windows mobile changing default text sizes */
+			body,
+			table,
+			td,
+			a {
+				-webkit-text-size-adjust: 100%;
+				-ms-text-size-adjust: 100%;
+			}
+			
+			/* Remove spacing between tables in Outlook 2007 and up */
+			table,
+			td {
+				padding: 0;
+				mso-table-lspace: 0pt;
+				mso-table-rspace: 0pt;
+			}
+			
+			/* Allow smoother rendering of resized image in Internet Explorer */
+			img {
+				-ms-interpolation-mode: bicubic;
+			}
+			
+			/* RESET STYLES */
+			body {
+				margin: 0;
+				padding: 0;
+			}
+			
+			img {
+				border: 0;
+				height: auto;
+				line-height: 100%;
+				outline: none;
+				text-decoration: none;
+			}
+			
+			table {
+				border-collapse: collapse !important;
+			}
+			
+			body {
+				height: 100% !important;
+				margin: 0;
+				padding: 0;
+				width: 100% !important;
+			}
+			
+			a {
+				text-decoration: none;
+				font-weight: bold;
+			}
+			
+			/* iOS BLUE LINKS */
+			.appleBody a {
+				color: #68440a;
+				text-decoration: none;
+			}
+			
+			.appleFooter a {
+				color: #999999;
+				text-decoration: none;
+			}
+			
+			/* Make table widths less succeptible to the whims of the user-agent */
+			table,
+			td {
+				table-layout: fixed;
+			}
+			
+			/*MOBILE STYLES */
+			@media screen and (max-width: 642px) {
+				/* ALLOWS FOR FLUID TABLES */
+				table[class="wrapper"],
+				table.wrapper {
+					width: 100% !important;
+				}
+				/* ADJUSTS LAYOUT OF LOGO IMAGE */
+				td[class="logo"],
+				td.logo {
+					text-align: left;
+					padding: 20px 0 20px 0 !important;
+				}
+				td[class="logo"] img,
+				td.logo img {
+					margin: 0 auto!important;
+				}
+				
+				/* USE THESE CLASSES TO HIDE CONTENT ON MOBILE */
+				td[class="mobile-hide"],
+				td.mobile-hide {
+					display: none;
+				}
+				
+				/* This is highly redundant and should be fixed */
+				img[class="mobile-hide"],
+				img.mobile-hide,
+				.mobile-hide {
+					display: none !important;
+				}
+				img[class="img-max"],
+				img.img-max {
+					max-width: 100% !important;
+					height: auto !important;
+				}
+				img[class="img-fill"],
+				img.img-fill {
+					width: 100% !important;
+					height: auto !important;
+				}
+				/* FULL-WIDTH TABLES */
+				table[class="responsive-table"],
+				table.responsive-table {
+					width: 100% !important;
+				}
+				/* UTILITY CLASSES FOR ADJUSTING PADDING ON MOBILE */
+				td[class="padding"],
+				td.padding {
+					padding: 10px 5% 15px 5% !important;
+				}
+				td[class="padding-copy"],
+				td.padding-copy {
+					padding: 10px 5% 10px 5% !important;
+					text-align: center;
+					display: block;
+				}
+				td[class="padding-copy-left"],
+				td.padding-copy-left {
+					padding: 10px 5% 10px 5% !important;
+					text-align: left;
+					display: block;
+				}
+				td[class="padding-meta"],
+				td.padding-meta {
+					padding: 30px 5% 0px 5% !important;
+					text-align: center;
+				}
+				td[class="no-pad"],
+				td.no-pad {
+					padding: 0 0 20px 0 !important;
+				}
+				td[class="no-padding"],
+				td.no-padding {
+					padding: 0 !important;
+				}
+				td[class="section-padding"],
+				td.section-padding {
+					padding: 10px 10px 10px 10px !important;
+				}
+				td[class="section-header"],
+				td.section-header {
+					padding: 10px 15px 10px 15px !important;
+				}
+				td[class="section-padding-bottom-image"],
+				td.section-padding-bottom-image {
+					padding: 50px 15px 0 15px !important;
+				}
+				/* ADJUST BUTTONS ON MOBILE */
+				td[class="mobile-wrapper"],
+				td.mobile-wrapper {
+					padding: 10px 5% 15px 5% !important;
+				}
+				/* TEMPLATE-SPECIFIC STYLES */
+				/* Smoothly collapse store grid from 2 to 1 column layout */
+				div[class="griditem"],
+				div.griditem {
+					padding-right: 0px !important;
+				}
+				/* Smoothly collapse monthly value items to a vertical layout */
+				td[class="monthly-value"],
+				td.monthly-value {
+					width: 100% !important;
+					padding: 0 !important;
+				}
+				/* Switch from left-right justified logo+text to centered logo above text */
+				td[class="store-header"],
+				td.store-header {
+					text-align: center !important;
+					display: inline-block !important;
+					width: 100% !important;
+				}
+			}
+		</style>
+	</head>
+
+	<body style="margin:0; padding:0; background-color:#e4e7ed;">
+		<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#e4e7ed">
+			<tr>
+				<td align="center" valign="top" style="padding:10px;">
+					<table align="center" border="0" cellspacing="0" cellpadding="0" width="622px" class="responsive-table">
+						<tr>
+							<td align="center" valign="top" width="100%">
+								<div style="display: none; font-size: 1px; font-family: Helvetica, Arial, sans-serif; height: 0px; width: 0px; opacity: 0; overflow: hidden;"> </div>
+								
+								<table border="0" cellpadding="0" cellspacing="0" width="100%" style="margin-bottom:6px;">
+									<tr>
+										<td align="center">
+											<table width="622" style= 'border-collapse:collapse; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;' class="responsive-table">
+												<tr>
+													<td width="170" style="text-align:left;" class="store-header">
+														<div id="header-wrapper">
+															<a href="http://www.test.com">
+																<img width="170" height="64" src="http://www.test.com/assets/images/logos/logo_long_b.png" style="display:block;width:170px;height:64px" />
+															</a>
+															<div class="clear"></div>
+														</div>
+													</td>
+													<td width="452" style="text-align:right; padding: 10px 0 0 0;" class="store-header"></td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+								</table>
+								
+								<table border="0" cellpadding="0" cellspacing="0" width="100%">
+									<tbody>
+										<tr>
+											<td align="center" width="100%" style="text-align:center;">
+												<table border="0" cellpadding="0" cellspacing="0" width="622" class="responsive-table">
+													<tbody>
+														<tr>
+															<td width="100%" height="20" style="border-top-right-radius:6px; border-top-left-radius:6px; background:#ffffff;"></td>
+														</tr>
+														<tr>
+															<td height="26" style='padding: 0 15px; text-align: left; font-size:14px; line-height:26px; background:#fff; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;'>
+																{{translate.hi_username}}<br>
+																{{translate.some_of_the_channels_you_follow_have_recently_published_memes}}<br>
+															</td>
+														</tr>
+														<tr>
+															<td width="100%" height="20" style="border-bottom-right-radius:6px; border-bottom-left-radius:6px; background:#ffffff;"></td>
+														</tr>
+													</tbody>
+												</table>
+											</td>
+										</tr>
+										
+										<tr><td><br></td></tr>
+									</tbody>
+								</table>
+								
+								{% for row in newsletter.rows %}
+									{{ set_elements(row) }}
+                                    {% include "row.html" %}
+                                {% endfor %}
+								
+								<!-- FOOTER -->
+								<table border="0" cellspacing="0" cellpadding="0" width="100%" align="center" style="background-color: transparent;">
+									<tr>
+										<td style="padding: 20px 0px;" align="center">
+											<!-- UNSUBSCRIBE COPY -->
+											<table width="500" border="0" cellspacing="0" cellpadding="0" align="center" class="responsive-table">
+												<tr>
+													<td align="center" class="padding-copy" style= 'font-size: 12px; line-height: 18px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; color: #606060;'>
+														<br>{{translate.this_email_was_sent_to_email}}
+														<br><a style="color: black;" href="https://www.test.com/profile/followed-channels">{{translate.email_preferences}}</a> | <a style="color: black;" href="https://www.test.com/info/contactus">{{translate.contact_us}}</a>
+														<br> Copyright 2019
+														<br>
+														<br>
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+		
+		<img border="0" width="1" height="1" alt="" src="{{newsletter.tracking_url}}">
+	</body>
+</html>
