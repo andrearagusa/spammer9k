@@ -1,4 +1,4 @@
-# spammer9k aka Newsletter daemon
+# spammer9k
 
 This project started as a way to send thousands of email daily to newsletter subscribers,
 alerting them when there was new content. It has multiple configurable send addressess
